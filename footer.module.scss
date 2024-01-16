@@ -1,0 +1,27 @@
+@use "../colors/colors" as *;
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: $footer-color;
+	height: auto;
+	width: 100vw;
+
+	&__container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 1200px;
+		height: 100%;
+		padding: 2rem 0rem 2rem 0rem;
+	}
+	&__rights {
+		color: $dark;
+		p {
+			font-size: 1rem;
+			padding-bottom: 0.5rem;
+		}
+	}
+}
